@@ -12,29 +12,29 @@ body{
 h1, h2{
     font-family: 'Roboto Slab',sans-serif;
 }
-.one{
+.log1{
     background-color:lightcoral;
     height: 100px;
     position: relative;
 }
-.two{
+.log2{
     background-color:lightblue;
     height: 230px;
     position: relative;
     
 }
-.three{
+.log3{
     background-color: lightskyblue;
     height: 190px;
     position: relative;
     margin-top: 10px;
 }
-.four{
+.log4{
     background-color: lightgreen;
     height: auto;
     position: relative;
 }
-.tit{
+.col1{
     font-family: 'Arimo', sans-serif;
     font-size: 120%;
     width: auto;
@@ -45,7 +45,7 @@ h1, h2{
     left: 0px;
     margin-bottom: 0px;
 }
-.tit2{
+.col2{
     font-family: 'Arimo', sans-serif;
     font-size: 120%;
     width: auto;
@@ -56,7 +56,7 @@ h1, h2{
     left: 0px;
     margin-bottom: 0px;
 }
-.tit3{
+.col3{
     font-family: 'Arimo', sans-serif;
     color: azure;
     font-size: 120%;
@@ -68,7 +68,7 @@ h1, h2{
     left: 0px;
     margin-bottom: 0px;
 }
-.tit4{
+.col4{
     font-family: 'Arimo', sans-serif;
     font-size: 120%;
     width: auto;
@@ -93,22 +93,22 @@ h1, h2{
         flex: content;
         flex-direction: column;
     }
-    .one {
+    .log1 {
         width: 100%;
         height: 300px;
     }
 
-    .two {
+    .log2 {
         height: 300px;
         width: 100%;
     }
 
-    .three {
+    .log3 {
         height: 300px;
         width: 100%;
     }
 
-    .four {
+    .log4 {
         height: 300px;
         width: 100%;
     }
@@ -127,19 +127,19 @@ h1, h2{
         flex-wrap: wrap;
     }
 
-    .one{
+    .log1{
         width: 50%;
         height: auto;
     }
-    .two{
+    .log2{
         width: 50%;
         height: auto;
     }
-    .three{
+    .log3{
         width: 50%;
         height: auto;
     }
-    .four{
+    .log4{
         width: 50%;
         height: auto;
     }
@@ -152,23 +152,23 @@ h1, h2{
         justify-content: space-between;
         align-items: center;
     }
-    .one{
+    .log1{
         width: 30%;
         height: 250px    
     }
 
-    .two {
+    .log2 {
         height: 250px;
         width: 30%;
     }
 
-    .three {
+    .log3{
         height: 250px;
         width: 30%;
         margin-bottom: 7px;
     }
 
-    .four {
+    .log4 {
         height: 1280;
         width: 100%;
     }
@@ -185,22 +185,22 @@ h1, h2{
         align-items: center;
     }
 
-    .one {
+    .log1 {
         height: 400px;
         width: 25%;
     }
 
-    .two {
+    .log2 {
         height: 400px;
         width: 25%;
     }
 
-    .three {
+    .log3 {
         height: 400px;
         width: 25%;
     }
 
-    .four {
+    .log4 {
         height: 450px;
         width: 23%;
     }
