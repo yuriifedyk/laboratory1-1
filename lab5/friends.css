@@ -1,0 +1,21 @@
+@media(min-width:992px) {
+    tr th{
+        font-size: 130%;
+    }
+    tr td{
+        font-size: 120%;
+    }
+}
+@media(min-width:768px) and (max-width: 991px){
+    tr th{
+        font-size: 120%;
+    }
+    tr td{
+        font-size: 110%;
+    }
+}
+@media(max-width: 767px){
+    tr th{
+        font-size: 110%;
+    }
+}

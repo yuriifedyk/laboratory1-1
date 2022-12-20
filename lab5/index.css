@@ -1,0 +1,23 @@
+@media (min-width: 992px) {
+    body div {
+        display: inline-flex;
+        justify-content: space-evenly;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body div {
+        display: inline-table;
+        flex-wrap: wrap;
+        margin-right: 280px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    body div {
+        
+    }
+}

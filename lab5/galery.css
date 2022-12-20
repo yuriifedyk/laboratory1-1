@@ -1,0 +1,51 @@
+@media(min-width :992px) {
+    article h3{
+        margin-top:-100px;
+        margin-left: 100px;
+        display: inline-flex;
+        float: right;
+
+    }
+    .one {
+        display: inline-flex;
+        width: 320px;
+        height: 240px;
+    }
+
+    .two {
+        display: inline-flex;
+        width: 320px;
+        height: 240px;
+    }
+
+    .three {
+        display: inline-flex;
+        width: 320px;
+        height: 240px;
+    }
+}
+@media(max-width :992px) and (min-width: 768px){
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    .one, .two{
+        display: inline-flex;
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .three{
+        margin-top: 100px;
+        margin-left: 200px;
+        display: inline-flex;
+    }
+}
+@media(max-width: 767px){
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    .container{
+        display: flex;
+    }
+}
